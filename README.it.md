@@ -82,11 +82,11 @@ Un prompt SaSP completo che valuta il sentiment di un feedback cliente e restitu
 </system_prompt>
 ```
 
-Ogni vincolo compare in un solo punto: ruolo, obiettivo e contesto negli attributi; lingua, formato e tono nelle specifiche; la forma dei dati e il canale di uscita nel contratto; la logica di escalation nel flusso. La fase `EMIT` consegna `FeedbackAnalysis`, e la regola sul formato vale solo in quella fase (`scope="EMIT"`). Il capitolo 5 del documento "Descrizione del metodo" spiega l'esempio più in dettaglio.
+Ogni vincolo compare in un solo punto: ruolo, obiettivo e contesto negli attributi; lingua e formato nelle specifiche; la forma dei dati e il canale di uscita nel contratto; la logica di escalation nel flusso. La fase `EMIT` consegna `FeedbackAnalysis`, e la regola sul formato vale solo in quella fase (`scope="EMIT"`). Il capitolo 5 del documento "Descrizione del metodo" spiega l'esempio più in dettaglio.
 
 ## Contenuti
 
-- **Descrizione del metodo:** la notazione e il metodo per intero [Italiano](Syntax_as_Semantics_Prompting_-_SaSP.it.md) · [English](Syntax_as_Semantics_Prompting_-_SaSP.en.md)
+- **Descrizione del metodo:** la notazione e il metodo per intero [Italiano](Syntax%20as%20Semantics%20Prompting%20-%20SaSP.it.md) · [English](Syntax%20as%20Semantics%20Prompting%20-%20SaSP.en.md)
 - **Transpiler:** [`transpiler/sasp_transpiler.en.xml`](transpiler/sasp_transpiler.en.xml) · [`transpiler/sasp_transpiler.it.xml`](transpiler/sasp_transpiler.it.xml): un prompt SaSP che aiuta nella conversione di specifiche da linguaggio naturale in prompt SaSP. Rileggi sempre il risultato.
 - **Transpiler Skill**: [`transpiler/skill/sasp-transpiler`](transpiler/skill/sasp-transpiler/SKILL.md): una skill scritta in SaSP che aiuta nella conversione di specifiche da linguaggio naturale in prompt SaSP. Rileggi sempre il risultato.
 

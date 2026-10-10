@@ -82,13 +82,13 @@ A complete SaSP prompt that evaluates customer feedback sentiment and emits stri
 </system_prompt>
 ```
 
-Each constraint lives in one place: role, objective, and context as attributes; language, format, and tone in the specifications; the output schema and its channel in the contracts; the escalation logic in the workflow. The `EMIT` state produces `FeedbackAnalysis`, and the format rule applies only to that stage (`scope="EMIT"`). Chapter 5 of the document "Method description" explains the example in more detail.
+Each constraint lives in one place: role, objective, and context as attributes; language, and format in the specifications; the output schema and its channel in the contracts; the escalation logic in the workflow. The `EMIT` state produces `FeedbackAnalysis`, and the format rule applies only to that stage (`scope="EMIT"`). Chapter 5 of the document "Method description" explains the example in more detail.
 
 ## Contents
 
-- **Method description:** the full notation and methodology [English](Syntax_as_Semantics_Prompting_-_SaSP_en.md) · [Italiano](Syntax_as_Semantics_Prompting_-_SaSP_it.md)
-- **Transpiler:** [`transpiler/sasp_transpiler.en.xml`](transpiler/sasp_transpiler.en.xml) · [`transpiler/sasp_transpiler.it.xml`](transpiler/sasp_transpiler.it.xml): a SaSP prompt that helps converting natural-language specifications into SaSP prompts. Always review its output.
-- **Transpiler Skill**: [`transpiler/skill/sasp-transpiler`](transpiler/skill/sasp-transpiler/SKILL.md): a SaSP skill that helps converting natural-language specifications into SaSP prompts. Always review its output.
+- **Method description:** the full notation and methodology [English](Syntax%20as%20Semantics%20Prompting%20-%20SaSP.en.md) · [Italiano](Syntax%20as%20Semantics%20Prompting%20-%20SaSP.it.md)
+- **Transpiler:** [`transpiler/sasp_transpiler.en.xml`](transpiler/sasp_transpiler.en.xml) · [`transpiler/sasp_transpiler.it.xml`](transpiler/sasp_transpiler.it.xml): a SaSP prompt that helps convert natural-language specifications into SaSP prompts. Always review its output.
+- **Transpiler Skill**: [`transpiler/skill/sasp-transpiler`](transpiler/skill/sasp-transpiler/SKILL.md): a SaSP skill that helps convert natural-language specifications into SaSP prompts. Always review its output.
 
 ## Citing
 

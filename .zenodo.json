@@ -1,0 +1,17 @@
+{
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "title": "Syntax as Semantics Prompting (SaSP)",
+  "creators": [
+    { "name": "Rubeo, Francesco" }
+  ],
+  "description": "<p>A notation and method for writing prompt constraints explicitly, using syntax borrowed from XML, CSS, TypeScript and JavaScript. Available in English and Italian.</p>",
+  "keywords": [
+    "prompt engineering",
+    "large language models",
+    "prompt structure"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng"
+}
