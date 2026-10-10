@@ -4,7 +4,7 @@
 
 [English](README.md) · [Italiano](README.it.md)
 
-<!-- Zenodo DOI badge: add after the first release -->
+[![DOI](https://zenodo.org/badge/1382252747.svg)](https://doi.org/10.5281/zenodo.23286981)
 
 SaSP is a notation and methodology for writing prompt constraints explicitly: it makes visible the priorities, scopes, conditions, and output formats that stay implicit in prose. It is meant for people who maintain complex LLM prompts over time, with many rules of different weight, structured outputs, or multi-stage workflows.
 

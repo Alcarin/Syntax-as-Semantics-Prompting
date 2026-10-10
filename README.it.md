@@ -4,7 +4,7 @@
 
 [English](README.md) · [Italiano](README.it.md)
 
-<!-- Badge DOI di Zenodo: da aggiungere dopo la prima release -->
+[![DOI](https://zenodo.org/badge/1382252747.svg)](https://doi.org/10.5281/zenodo.23286981)
 
 SaSP è una notazione e un metodo per scrivere i vincoli di un prompt in modo esplicito: rende visibili priorità, ambiti, condizioni e formati di uscita che nella prosa restano impliciti. È pensato per chi mantiene nel tempo prompt complessi per LLM, con molte regole di peso diverso, output strutturati o flussi a più fasi.
 
