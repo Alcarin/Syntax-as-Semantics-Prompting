@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Syntax as Semantics Prompting (SaSP)"
+authors:
+  - family-names: "Rubeo"
+    given-names: "Francesco"
+version: 0.1.0
+date-released: 2026-10-10
+license: CC-BY-4.0
+repository-code: "https://github.com/Alcarin/Syntax-as-Semantics-Prompting"
+abstract: "A notation and method for writing prompt constraints explicitly, using syntax borrowed from XML, CSS, TypeScript and JavaScript. Available in English and Italian."
+keywords:
+  - prompt engineering
+  - large language models
+  - prompt structure
+doi: "10.5281/zenodo.XXXXXXX"
